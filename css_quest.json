@@ -1,0 +1,74 @@
+[
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Cascading Script Style",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Computer Science System",
+    "answer_4": "Computerized Styling System",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "What is the correct syntax to link an external CSS file?",
+    "answer_1": "<link href='style.css' rel=`stylesheet`>",
+    "answer_2": "<link href='style.css' type='text/css'>",
+    "answer_3": "<style src='style.css'>",
+    "answer_4": "<script src='style.css'>",
+    "right_answer": "<link href='style.css' rel='stylesheet'>"
+  },
+  {
+    "title": "What is the default value of the position property?",
+    "answer_1": "static",
+    "answer_2": "relative",
+    "answer_3": "absolute",
+    "answer_4": "fixed",
+    "right_answer": "static"
+  },
+  {
+    "title": "What is the property that is used to set the background color of an element?",
+    "answer_1": "color",
+    "answer_2": "background-image",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "What is the property used to set the font size of an element?",
+    "answer_1": "font-style",
+    "answer_2": "font-size",
+    "answer_3": "font-weight",
+    "answer_4": "font-family",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "Which CSS property is used to control the text color of an element?",
+    "answer_1": "color",
+    "answer_2": "background-color",
+    "answer_3": "text-color",
+    "answer_4": "font-color",
+    "right_answer": "color"
+  },
+  {
+    "title": "What does the CSS property 'display: none' do?",
+    "answer_1": "Hides an element without affecting the layout",
+    "answer_2": "Hides an element and affects the layout",
+    "answer_3": "Displays an element without affecting the layout",
+    "answer_4": "Displays an element and affects the layout",
+    "right_answer": "Hides an element without affecting the layout"
+  },
+  {
+    "title": "What is the CSS property used to create a border around an element?",
+    "answer_1": "border-style",
+    "answer_2": "border-width",
+    "answer_3": "border-color",
+    "answer_4": "All of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "Which CSS property is used to specify the amount of space between lines of text?",
+    "answer_1": "line-height",
+    "answer_2": "letter-spacing",
+    "answer_3": "word-spacing",
+    "answer_4": "text-indent",
+    "right_answer": "line-height"
+  }
+]

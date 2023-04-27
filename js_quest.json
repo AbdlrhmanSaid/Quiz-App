@@ -1,0 +1,74 @@
+[
+  {
+    "title": "What is the syntax for declaring a variable in JavaScript?",
+    "answer_1": "var x;",
+    "answer_2": "variable x;",
+    "answer_3": "int x;",
+    "answer_4": "declare x;",
+    "right_answer": "var x;"
+  },
+  {
+    "title": "What is the output of the following code: console.log(2 + '2')?",
+    "answer_1": "22",
+    "answer_2": "4",
+    "answer_3": "undefined",
+    "answer_4": "NaN",
+    "right_answer": "22"
+  },
+  {
+    "title": "Which method is used to add an element to the end of an array in JavaScript?",
+    "answer_1": "append()",
+    "answer_2": "push()",
+    "answer_3": "add()",
+    "answer_4": "insert()",
+    "right_answer": "push()"
+  },
+  {
+    "title": "What does the keyword 'this' refer to in JavaScript?",
+    "answer_1": "The global object",
+    "answer_2": "The function where it is called",
+    "answer_3": "The object that is calling the function",
+    "answer_4": "The parent object of the current object",
+    "right_answer": "The object that is calling the function"
+  },
+  {
+    "title": "What is the purpose of a 'for' loop in JavaScript?",
+    "answer_1": "To execute a block of code while a condition is true",
+    "answer_2": "To execute a block of code a specific number of times",
+    "answer_3": "To execute a block of code until a condition is true",
+    "answer_4": "To execute a block of code asynchronously",
+    "right_answer": "To execute a block of code a specific number of times"
+  },
+  {
+    "title": "Which keyword is used to declare a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "var",
+    "answer_3": "let",
+    "answer_4": "const",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the purpose of the 'setTimeout' method in JavaScript?",
+    "answer_1": "To set a delay before executing a function",
+    "answer_2": "To execute a function repeatedly",
+    "answer_3": "To set an interval for executing a function",
+    "answer_4": "To pause the execution of a function",
+    "right_answer": "To set a delay before executing a function"
+  },
+  {
+    "title": "What is the result of the expression '5 == '5'' in JavaScript?",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "undefined",
+    "answer_4": "NaN",
+    "right_answer": "true"
+  },
+  {
+    "title": "What is the purpose of the 'break' statement in a JavaScript loop?",
+    "answer_1": "To terminate the loop immediately",
+    "answer_2": "To skip the current iteration of the loop",
+    "answer_3": "To continue to the next iteration of the loop",
+    "answer_4": "To pause the loop temporarily",
+    "right_answer": "To terminate the loop immediately"
+  }
+]
