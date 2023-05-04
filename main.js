@@ -35,7 +35,7 @@ function getQuest() {
       addQuest(questObj[currentIndex], qCount);
 
       // start countdown
-      countdown(5, qCount);
+      countdown(10, qCount);
 
       // click on submit
       subBtn.onclick = () => {
@@ -59,8 +59,7 @@ function getQuest() {
         handleBullets();
 
         // start countdown
-        countdown(5, qCount);
-
+        countdown(10, qCount);
         // show results
         showResults(qCount);
       };
