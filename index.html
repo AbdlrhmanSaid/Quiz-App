@@ -5,23 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <title>Quizz App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Quiz Master</title>
   </head>
   <body>
-    <div class="quiz-app">
-      <div class="quiz-info">
-        <div class="category">Category: <span>HTML</span></div>
-        <div class="count">Questions Count: <span></span></div>
+    <div class="app-header">
+      <h1 class="brand"><i class="fas fa-brain"></i> Quiz Master</h1>
+      <div class="controls">
+        <label for="category-select"><i class="fas fa-tag"></i> Category</label>
+        <select id="category-select" class="category-select">
+          <option value="html" selected>HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+        </select>
+        <button class="start-btn"><i class="fas fa-play"></i> Start</button>
       </div>
+    </div>
+
+    <div class="quiz-app" style="display: none">
+      <div class="quiz-info">
+        <div class="category">
+          <i class="fas fa-bookmark"></i> Category:
+          <span class="category-label">HTML</span>
+        </div>
+        <div class="count">
+          <i class="fas fa-list-ol"></i> Questions: <span></span>
+        </div>
+      </div>
+
       <div class="quiz-area"></div>
       <div class="answer-area"></div>
-      <button class="submit-btn">Submit Answer</button>
+      <button class="submit-btn">
+        Submit Answer <i class="fas fa-arrow-right"></i>
+      </button>
+
       <div class="bullets">
         <div class="spans"></div>
-        <div class="countdown"></div>
+        <div class="countdown-container">
+          <div class="countdown-circle">
+            <svg>
+              <circle cx="20" cy="20" r="18"></circle>
+              <circle cx="20" cy="20" r="18" class="progress"></circle>
+            </svg>
+            <span class="countdown">10</span>
+          </div>
+        </div>
       </div>
+
       <div class="results"></div>
     </div>
+
     <script src="main.js"></script>
   </body>
 </html>
